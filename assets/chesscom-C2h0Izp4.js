@@ -1,4 +1,4 @@
-import{Tt as e,_t as t}from"./app-BuL97Vfh.js";var n=new Set([`1-0`,`0-1`,`1/2-1/2`,`*`]),r=new Set([`1-0`,`0-1`,`1/2-1/2`]),i=new Set([`standard`,`chess`,`normal`,`from position`]),a=/^\s*\[[A-Za-z0-9_]+\s+"(?:[^"\\]|\\.)*"\s*\]\s*$/;function o(e){return e.replace(/^\uFEFF/,``).replace(/\r\n?/g,`
+import{Nt as e,Tt as t}from"./app-8l2CQV_0.js";var n=new Set([`1-0`,`0-1`,`1/2-1/2`,`*`]),r=new Set([`1-0`,`0-1`,`1/2-1/2`]),i=new Set([`standard`,`chess`,`normal`,`from position`]),a=/^\s*\[[A-Za-z0-9_]+\s+"(?:[^"\\]|\\.)*"\s*\]\s*$/;function o(e){return e.replace(/^\uFEFF/,``).replace(/\r\n?/g,`
 `)}function s(e){return n.has(e.replace(`½-½`,`1/2-1/2`))}function c(e){let t=[],n=``,r=!1,i=!1,c=0,l=()=>{let e=n.trim();e&&t.push(e),n=``,r=!1,c=0};for(let t of o(e).split(`
 `)){let e=t.trimStart();if(!i&&c===0&&e.startsWith(`[`)||r&&a.test(t)){r&&l(),i=!1,n+=t+`
 `;continue}if(!i&&e.startsWith(`%`)){n+=t+`
