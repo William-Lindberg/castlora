@@ -1,0 +1,50 @@
+Castlora License
+
+Copyright (c) 2026 William Matthew Lindberg. All rights reserved.
+
+Castlora (the website, the web app, the Android app, their code, texts, icons and other content, together "the Software") is free to use, but it is not open source. The source code is not published. The Software is made only to be used: the website and web app to be visited and used, and the Android app (APK) to be downloaded from the official download page and installed.
+
+The official website and web app are at https://william-lindberg.github.io/castlora/ and the official download page for the Android app is https://github.com/William-Lindberg/castlora/releases.
+
+1. What you may do
+
+Free of charge, you may:
+a. use the website and the web app, and download the Android app from the official download page and install it on your own devices, for your own personal, non-commercial use;
+b. use it within a non-commercial group (for example a family, a chess club, a school or a community) as long as nobody is charged for access to Castlora itself;
+c. make backups of your own data, and share content you made yourself (for example your own games and the backup files you export).
+
+2. What you may not do
+
+Without prior written permission from the copyright holder, and except for the third-party components described in section 3, you may not:
+a. copy, reproduce, republish, re-upload or redistribute the Software or any part of it, including the APK file and the website's files, except for the copies made automatically when you install, run or visit it yourself;
+b. modify, decompile, reverse engineer or take apart the Software, or make, publish or distribute anything based on it (a "derivative work"), including a renamed or rebranded version, except to the extent that the law where you live allows this despite this restriction (for example for security research or interoperability);
+c. use the Software, or any part of it, for commercial purposes (for example selling it, charging for access to it, including it in a paid product or service, showing ads in or around it, or making money from it in any other way);
+d. remove or change this license or any copyright notice;
+e. use the name "Castlora" or the Castlora logo for another product or service.
+
+3. Third-party components
+
+The Software includes third-party components. Each is covered by its own license, listed under "Open-source licences and notices" on the website (https://william-lindberg.github.io/castlora/notices.html). Those licenses apply only to those components and give no rights to the rest of the Software. In particular:
+a. Stockfish. The chess engine files engine/stockfish-19-lite-single.js and engine/stockfish-19-lite-single.wasm (on the website, and the same files inside the APK) are Stockfish.js 19, a separate program based on the Stockfish chess engine. They are licensed under the GNU General Public License version 3 (GPL v3), not under this license. Castlora uses them unmodified and communicates with them only through UCI text messages. Nothing in this license restricts your rights under the GPL for those files: you may copy, modify and redistribute them under the terms of the GPL. Their complete source code is available at https://github.com/nmrugg/stockfish.js/tree/v19.0.1 and https://github.com/official-stockfish/Stockfish, and the text of the GPL is in engine/COPYING.txt (https://william-lindberg.github.io/castlora/engine/COPYING.txt).
+b. Chess pieces. The chess piece artwork is the Cburnett set from Wikimedia Commons (authors Cburnett and Rfc1394, modified by shaack for cm-chessboard). It, and the board marker artwork by shaack, stay under the Creative Commons Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/).
+c. Opening names. The opening names come from lichess-org/chess-openings and stay dedicated to the public domain under CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).
+
+4. GitHub
+
+The website's files and the APK are hosted in a public GitHub repository (https://github.com/William-Lindberg/castlora). GitHub's Terms of Service let GitHub users view and fork public repositories on GitHub. That gives no rights beyond this license: you may not use, change, publish or distribute a fork or any of its files in any way this license does not allow.
+
+5. Ending
+
+If you break this license, your permission to use the Software ends automatically.
+
+6. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE, INCLUDING ANY LOSS OF DATA.
+
+Engine evaluations, best moves, accuracy scores, mistake categories, levels, recommendations and the other numbers and insights shown by the Software are automatic estimates. They can be wrong, can differ from those of other sites or tools (including Chess.com), and are not a guarantee of any result. You are responsible for keeping backups of your own data.
+
+7. Your consumer rights
+
+This license does not limit any rights you have under mandatory consumer protection law where you live that cannot be excluded or limited by agreement. If any part of this license cannot be enforced where you live, the rest of it still applies.
+
+For permission to do anything not allowed above, including commercial use, contact the copyright holder through https://github.com/William-Lindberg.

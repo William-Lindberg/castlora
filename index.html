@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#f5f6fa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e1120" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Castlora is a free chess improvement app. Import your finished games, analyse them on your own device with Stockfish 19, and train from your real mistakes and the openings you actually play. No account, no ads, no tracking." />
+    <title>Castlora · Learn from the games you play</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" crossorigin href="/castlora/assets/site-CDaGsXBg.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="./" aria-label="Castlora home">
+          <svg viewBox="0 0 32 32" class="brand-mark" aria-hidden="true">
+            <defs>
+              <linearGradient id="castlora-g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#4f5ee0" />
+                <stop offset="1" stop-color="#7350c9" />
+              </linearGradient>
+            </defs>
+            <rect width="32" height="32" rx="9" fill="url(#castlora-g)" />
+            <path d="M9.5 8.5h2.6v2.2h2.4V8.5h3v2.2h2.4V8.5h2.6v5.2l-2 1.6v5.4l1.6 1.8v1.5H9.9v-1.5l1.6-1.8v-5.4l-2-1.6z" fill="#fff" />
+            <path d="M14.6 24v-3.2a1.4 1.4 0 0 1 2.8 0V24" fill="#5a55d6" />
+            <circle cx="24.2" cy="8.6" r="1.6" fill="#f2c45a" />
+          </svg>
+          <span>Castlora</span>
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="#how">How it works</a>
+          <a href="#features">Features</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-primary btn-sm" href="./app/">Open app</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ Hero ============ -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="wrap">
+          <div class="hero-copy">
+            <span class="eyebrow">
+              <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg></span>
+              Free · private · runs on your device
+            </span>
+            <h1 id="hero-title">
+              <span class="line">Your games.</span>
+              <span class="line">Your mistakes.</span>
+              <span class="line accent">Your repertoire.</span>
+            </h1>
+            <p class="lead">
+              Castlora analyses the games you have already played with Stockfish&nbsp;19, right on your own device. Then it turns
+              your real mistakes and the openings you really play into training made for your level.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary btn-lg" href="./app/">
+                Open the web app
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <a class="btn btn-lg" href="https://github.com/William-Lindberg/castlora/releases/latest">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3" /></svg>
+                Download for Android
+              </a>
+            </div>
+            <ul class="trust-row" aria-label="At a glance">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg>No account</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg>No ads or tracking</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg>Web and Android</li>
+            </ul>
+          </div>
+
+          <!-- Screenshot slot: replace the .mock block with <img src="./site/shots/review.png" alt="…" width="…" height="…" /> when real screenshots exist. -->
+          <figure class="shot" data-shot="review">
+            <div class="mock">
+              <div class="mock-bar">
+                <svg viewBox="0 0 32 32" class="brand-mark" aria-hidden="true">
+                  <rect width="32" height="32" rx="9" fill="url(#castlora-g)" />
+                  <path d="M9.5 8.5h2.6v2.2h2.4V8.5h3v2.2h2.4V8.5h2.6v5.2l-2 1.6v5.4l1.6 1.8v1.5H9.9v-1.5l1.6-1.8v-5.4l-2-1.6z" fill="#fff" />
+                  <path d="M14.6 24v-3.2a1.4 1.4 0 0 1 2.8 0V24" fill="#5a55d6" />
+                  <circle cx="24.2" cy="8.6" r="1.6" fill="#f2c45a" />
+                </svg>
+                <span>Game review</span>
+                <span class="spacer"></span>
+                <span class="pill">Rapid · You play Black</span>
+              </div>
+              <div class="mock-body">
+                <div class="mock-board">
+            <svg class="board-svg" viewBox="0 0 320 320" role="img" aria-labelledby="board-title">
+              <title id="board-title">Chess position from Black's side after 5...Nxd5 in the Two Knights Defence, with an arrow showing White's threat Nxf7</title>
+              <defs>
+                <symbol id="pc-P" viewBox="0 0 40 40"><circle cx="20" cy="13" r="5.2"/><path d="M15.2 19.2h9.6l-1.8 2.3c.5 2.8 1.8 5.1 3.8 7.5H13.2c2-2.4 3.3-4.7 3.8-7.5z"/><rect x="10.5" y="29" width="19" height="4" rx="1.6"/></symbol>
+                <symbol id="pc-R" viewBox="0 0 40 40"><path d="M12.2 8.5h3.4v3.1h3V8.5h2.8v3.1h3V8.5h3.4v6.4l-2.7 2.4v8.6l2.6 3.1H12.3l2.6-3.1v-8.6l-2.7-2.4z"/><path d="M14.9 17.3h10.2" fill="none"/><rect x="10.5" y="29" width="19" height="4" rx="1.6"/></symbol>
+                <symbol id="pc-B" viewBox="0 0 40 40"><circle cx="20" cy="7.6" r="2.3"/><path d="M20 10c4.9 2.9 7.3 6.6 7.3 10 0 2.7-1.6 4.5-3.7 5.3l1.1 3.7H15.3l1.1-3.7c-2.1-.8-3.7-2.6-3.7-5.3 0-3.4 2.4-7.1 7.3-10z"/><path d="M22.2 14.6l-4.4 4.8" fill="none"/><rect x="10.5" y="29" width="19" height="4" rx="1.6"/></symbol>
+                <symbol id="pc-N" viewBox="0 0 40 40"><path d="M12.6 29c.4-4.8 3.6-7.5 6.4-9.6l-.4-2.4c-1 1-2.2 1.5-3.4 1.4l-1.9 2.4c-.6.8-1.7 1-2.5.5l-1-.6c-.8-.5-1.1-1.5-.7-2.3 1.6-3.3 3.8-6.3 6.8-8.4l.2-3.4 2.3 2c5.6.4 9.9 4.6 10.9 10.5.6 3.5.4 6.8-.2 9.9z"/><circle cx="16.4" cy="13.2" r="1" fill="none"/><rect x="10.5" y="29" width="19" height="4" rx="1.6"/></symbol>
+                <symbol id="pc-Q" viewBox="0 0 40 40"><path d="M11.3 26.8 9.2 13.6l5.9 6.2.5-9.4L20 18.6l4.4-8.2.5 9.4 5.9-6.2-2.1 13.2z"/><circle cx="9.2" cy="12.4" r="2"/><circle cx="15.5" cy="9.4" r="2"/><circle cx="20" cy="8.2" r="2"/><circle cx="24.5" cy="9.4" r="2"/><circle cx="30.8" cy="12.4" r="2"/><rect x="10.5" y="29" width="19" height="4" rx="1.6"/></symbol>
+                <symbol id="pc-K" viewBox="0 0 40 40"><path d="M18.8 4.5h2.4v2.7h2.7v2.4h-2.7v3.1h-2.4V9.6h-2.7V7.2h2.7z"/><path d="M20 14c-2.2 0-3.7 1.8-3.5 3.9-2.7-2-7.6-1.3-7.6 3 0 3.2 2.7 5.2 4.5 6.9h13.2c1.8-1.7 4.5-3.7 4.5-6.9 0-4.3-4.9-5-7.6-3 .2-2.1-1.3-3.9-3.5-3.9z"/><path d="M20 18v9" fill="none"/><rect x="10.5" y="29" width="19" height="4" rx="1.6"/></symbol>
+                <marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" class="arrow" stroke="none"/></marker>
+              </defs>
+              <rect class="sq-l" width="320" height="320"/>
+              <g><rect class="sq-d" x="280" y="0" width="40" height="40"/><rect class="sq-d" x="280" y="80" width="40" height="40"/><rect class="sq-d" x="280" y="160" width="40" height="40"/><rect class="sq-d" x="280" y="240" width="40" height="40"/><rect class="sq-d" x="240" y="40" width="40" height="40"/><rect class="sq-d" x="240" y="120" width="40" height="40"/><rect class="sq-d" x="240" y="200" width="40" height="40"/><rect class="sq-d" x="240" y="280" width="40" height="40"/><rect class="sq-d" x="200" y="0" width="40" height="40"/><rect class="sq-d" x="200" y="80" width="40" height="40"/><rect class="sq-d" x="200" y="160" width="40" height="40"/><rect class="sq-d" x="200" y="240" width="40" height="40"/><rect class="sq-d" x="160" y="40" width="40" height="40"/><rect class="sq-d" x="160" y="120" width="40" height="40"/><rect class="sq-d" x="160" y="200" width="40" height="40"/><rect class="sq-d" x="160" y="280" width="40" height="40"/><rect class="sq-d" x="120" y="0" width="40" height="40"/><rect class="sq-d" x="120" y="80" width="40" height="40"/><rect class="sq-d" x="120" y="160" width="40" height="40"/><rect class="sq-d" x="120" y="240" width="40" height="40"/><rect class="sq-d" x="80" y="40" width="40" height="40"/><rect class="sq-d" x="80" y="120" width="40" height="40"/><rect class="sq-d" x="80" y="200" width="40" height="40"/><rect class="sq-d" x="80" y="280" width="40" height="40"/><rect class="sq-d" x="40" y="0" width="40" height="40"/><rect class="sq-d" x="40" y="80" width="40" height="40"/><rect class="sq-d" x="40" y="160" width="40" height="40"/><rect class="sq-d" x="40" y="240" width="40" height="40"/><rect class="sq-d" x="0" y="40" width="40" height="40"/><rect class="sq-d" x="0" y="120" width="40" height="40"/><rect class="sq-d" x="0" y="200" width="40" height="40"/><rect class="sq-d" x="0" y="280" width="40" height="40"/></g>
+              <rect class="hl" x="80" y="200" width="40" height="40"/>
+              <rect class="hl" x="160" y="160" width="40" height="40"/>
+              <g aria-hidden="true"><text class="coord coord-on-l" x="314.5" y="317.5">a</text><text class="coord coord-on-d" x="274.5" y="317.5">b</text><text class="coord coord-on-l" x="234.5" y="317.5">c</text><text class="coord coord-on-d" x="194.5" y="317.5">d</text><text class="coord coord-on-l" x="154.5" y="317.5">e</text><text class="coord coord-on-d" x="114.5" y="317.5">f</text><text class="coord coord-on-l" x="74.5" y="317.5">g</text><text class="coord coord-on-d" x="34.5" y="317.5">h</text><text class="coord coord-on-l" x="2.5" y="8.5">1</text><text class="coord coord-on-d" x="2.5" y="48.5">2</text><text class="coord coord-on-l" x="2.5" y="88.5">3</text><text class="coord coord-on-d" x="2.5" y="128.5">4</text><text class="coord coord-on-l" x="2.5" y="168.5">5</text><text class="coord coord-on-d" x="2.5" y="208.5">6</text><text class="coord coord-on-l" x="2.5" y="248.5">7</text><text class="coord coord-on-d" x="2.5" y="288.5">8</text></g>
+              <g aria-hidden="true"><use href="#pc-K" class="pc-w" x="120" y="0" width="40" height="40"/><use href="#pc-Q" class="pc-w" x="160" y="0" width="40" height="40"/><use href="#pc-R" class="pc-w" x="280" y="0" width="40" height="40"/><use href="#pc-R" class="pc-w" x="0" y="0" width="40" height="40"/><use href="#pc-B" class="pc-w" x="200" y="0" width="40" height="40"/><use href="#pc-B" class="pc-w" x="200" y="120" width="40" height="40"/><use href="#pc-N" class="pc-w" x="240" y="0" width="40" height="40"/><use href="#pc-N" class="pc-w" x="40" y="160" width="40" height="40"/><use href="#pc-P" class="pc-w" x="280" y="40" width="40" height="40"/><use href="#pc-P" class="pc-w" x="240" y="40" width="40" height="40"/><use href="#pc-P" class="pc-w" x="200" y="40" width="40" height="40"/><use href="#pc-P" class="pc-w" x="160" y="40" width="40" height="40"/><use href="#pc-P" class="pc-w" x="80" y="40" width="40" height="40"/><use href="#pc-P" class="pc-w" x="40" y="40" width="40" height="40"/><use href="#pc-P" class="pc-w" x="0" y="40" width="40" height="40"/><use href="#pc-K" class="pc-b" x="120" y="280" width="40" height="40"/><use href="#pc-Q" class="pc-b" x="160" y="280" width="40" height="40"/><use href="#pc-R" class="pc-b" x="280" y="280" width="40" height="40"/><use href="#pc-R" class="pc-b" x="0" y="280" width="40" height="40"/><use href="#pc-B" class="pc-b" x="200" y="280" width="40" height="40"/><use href="#pc-B" class="pc-b" x="80" y="280" width="40" height="40"/><use href="#pc-N" class="pc-b" x="200" y="200" width="40" height="40"/><use href="#pc-N" class="pc-b" x="160" y="160" width="40" height="40"/><use href="#pc-P" class="pc-b" x="280" y="240" width="40" height="40"/><use href="#pc-P" class="pc-b" x="240" y="240" width="40" height="40"/><use href="#pc-P" class="pc-b" x="200" y="240" width="40" height="40"/><use href="#pc-P" class="pc-b" x="120" y="160" width="40" height="40"/><use href="#pc-P" class="pc-b" x="80" y="240" width="40" height="40"/><use href="#pc-P" class="pc-b" x="40" y="240" width="40" height="40"/><use href="#pc-P" class="pc-b" x="0" y="240" width="40" height="40"/></g>
+              <line class="arrow" x1="63.6" y1="187.2" x2="94.2" y2="248.4" stroke-width="7" stroke-linecap="round" marker-end="url(#ah)" aria-hidden="true"/>
+            </svg>
+                </div>
+                <div class="mock-side">
+                  <div class="eval-card">
+                    <div class="eval-head">
+                      <span class="mock-label">Evaluation</span>
+                      <strong>+1.7</strong>
+                    </div>
+                    <svg class="eval-svg" viewBox="0 0 300 84" aria-hidden="true"><rect class="eval-bg" width="300" height="84" rx="6"/><line class="eval-mid" x1="0" y1="42" x2="300" y2="42"/><path class="eval-area" d="M0.0 39.7 L6.3 39.3 L12.5 39.7 L18.8 39.0 L25.0 39.3 L31.3 38.6 L37.5 39.7 L43.8 37.4 L50.0 38.2 L56.3 37.8 L62.5 29.1 L68.8 29.8 L75.0 27.6 L81.3 31.4 L87.5 32.9 L93.8 35.2 L100.0 35.9 L106.3 37.4 L112.5 38.2 L118.8 39.7 L125.0 40.5 L131.3 40.9 L137.5 41.2 L143.8 40.1 L150.0 41.2 L156.3 43.5 L162.5 44.3 L168.8 42.8 L175.0 26.0 L181.3 26.8 L187.5 29.8 L193.8 31.4 L200.0 33.6 L206.3 35.2 L212.5 34.4 L218.8 37.4 L225.0 39.0 L231.3 38.2 L237.5 46.6 L243.8 55.7 L250.0 61.8 L256.3 66.3 L262.5 69.4 L268.8 75.4 L275.0 73.9 L281.3 78.5 L287.5 80.0 L293.8 80.0 L300.0 80.0 L300 42 L0 42 Z"/><path class="eval-line" d="M0.0 39.7 L6.3 39.3 L12.5 39.7 L18.8 39.0 L25.0 39.3 L31.3 38.6 L37.5 39.7 L43.8 37.4 L50.0 38.2 L56.3 37.8 L62.5 29.1 L68.8 29.8 L75.0 27.6 L81.3 31.4 L87.5 32.9 L93.8 35.2 L100.0 35.9 L106.3 37.4 L112.5 38.2 L118.8 39.7 L125.0 40.5 L131.3 40.9 L137.5 41.2 L143.8 40.1 L150.0 41.2 L156.3 43.5 L162.5 44.3 L168.8 42.8 L175.0 26.0 L181.3 26.8 L187.5 29.8 L193.8 31.4 L200.0 33.6 L206.3 35.2 L212.5 34.4 L218.8 37.4 L225.0 39.0 L231.3 38.2 L237.5 46.6 L243.8 55.7 L250.0 61.8 L256.3 66.3 L262.5 69.4 L268.8 75.4 L275.0 73.9 L281.3 78.5 L287.5 80.0 L293.8 80.0 L300.0 80.0"/><line class="eval-cursor" x1="62.5" y1="0" x2="62.5" y2="84"/><circle class="dot-inacc" cx="62.5" cy="29.1" r="4"/><circle class="dot-mistake" cx="175.0" cy="26.0" r="4"/></svg>
+                  </div>
+                  <div class="move-card">
+                    <div class="move-top">
+                      <span class="san">5…Nxd5?!</span>
+                      <span class="pill pill-inacc">Inaccuracy</span>
+                    </div>
+                    <p>The recapture leaves f7 exposed: White can play 6.Nxf7. The main line is <span class="nowrap">5…Na5</span>.</p>
+                  </div>
+                  <div class="mock-actions" aria-hidden="true">
+                    <span class="fake-btn fake-btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.7-3.5M4 4v4h4M4 13a8 8 0 0 0 14.7 3.5M20 20v-4h-4" /></svg>Retry position</span>
+                    <span class="fake-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z" /></svg>Hint</span>
+                  </div>
+                  <div class="stat-row">
+                    <div class="stat"><b>79</b><span>Accuracy</span></div>
+                    <div class="stat"><b>3</b><span>To train</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="float-note" aria-hidden="true">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg></span>
+              <span>Added to your training<small>3 positions, spaced repetition</small></span>
+            </div>
+            <figcaption class="visually-hidden">Illustration of a Castlora game review: the board, an evaluation graph, the flagged move and training actions.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ============ How it works ============ -->
+      <section class="section section-alt" id="how" aria-labelledby="how-title">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">How it works</span>
+            <h2 id="how-title">From finished game to focused training</h2>
+            <p>Three steps. Analysis and training happen on your device: no upload, no waiting for a server, no account to create.</p>
+          </div>
+          <ol class="steps">
+            <li class="step">
+              <div class="step-num"><span class="n">1</span><span class="line"></span></div>
+              <h3>Import your games</h3>
+              <p>Enter a Chess.com username to fetch your finished games from Chess.com's public API, or open PGN files exported from any site.</p>
+              <div class="step-meta"><span class="pill">Chess.com username</span><span class="pill">PGN files</span></div>
+            </li>
+            <li class="step">
+              <div class="step-num"><span class="n">2</span><span class="line"></span></div>
+              <h3>Analyse on your device</h3>
+              <p>Stockfish 19 runs inside your browser or the Android app and checks every move. Your games are never uploaded for analysis.</p>
+              <div class="step-meta"><span class="pill pill-brand">Stockfish 19</span><span class="pill">On-device</span></div>
+            </li>
+            <li class="step">
+              <div class="step-num"><span class="n">3</span><span class="line"></span></div>
+              <h3>Train what matters</h3>
+              <p>Your own mistakes and openings become short training sessions, scheduled with spaced repetition and pitched at your level.</p>
+              <div class="step-meta"><span class="pill pill-best">Your mistakes</span><span class="pill pill-best">Your openings</span></div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============ Features ============ -->
+      <section class="section" id="features" aria-labelledby="features-title">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="kicker">Features</span>
+            <h2 id="features-title">Seven tools, one source: your own games</h2>
+            <p>Castlora doesn't give you generic puzzles. Every exercise and every insight comes from games you played.</p>
+          </div>
+          <div class="features">
+            <article class="feature">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4.5 4.5" /></svg></span>
+              <h3>Game analysis</h3>
+              <p>Every move of your finished games is checked by Stockfish 19 on your device. You get an evaluation graph, the best moves and the moments where the game turned.</p>
+            </article>
+            <article class="feature">
+              <span class="ico mistake"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2.5 20h19z" /><path d="M12 10v4M12 17.2v.1" /></svg></span>
+              <h3>Mistake intelligence</h3>
+              <p>Errors are graded and sorted by theme, so you see <em>why</em> you lose points. Retry each position, with hints when you need them.</p>
+              <div class="tags"><span class="pill pill-blunder">Blunders</span><span class="pill pill-mistake">Mistakes</span><span class="pill pill-inacc">Inaccuracies</span><span class="pill">Missed tactics</span><span class="pill">Hanging pieces</span><span class="pill">King safety</span></div>
+            </article>
+            <article class="feature feature-wide feature-featured">
+              <span class="pill pill-brand badge">Only moves you played</span>
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h9a5 5 0 0 1 5 5v11H8a3 3 0 0 1-3-3z" /><path d="M5 17a3 3 0 0 1 3-3h11M9 8h6" /></svg></span>
+              <h3>Automatic opening repertoire</h3>
+              <p>Your played repertoire is built strictly from moves you actually played, never from a book or an engine suggestion. Next to it, you curate a separate prepared repertoire for the lines you want to play.</p>
+              <div class="tree" aria-label="Example of a played repertoire tree">
+                <div class="row"><span>1.</span><span class="mv">e4</span><span>e5</span><span class="count">23 games</span></div>
+                <div class="row indent"><span>2.</span><span class="mv">Nf3</span><span>Nc6</span><span class="count">20 games</span></div>
+                <div class="row indent2"><span>3.</span><span class="mv">Bc4</span><span>Nf6</span><span class="count">14 games</span></div>
+                <div class="row indent2"><span>3.</span><span class="mv">Bb5</span><span>a6</span><span class="count">6 games</span></div>
+                <div class="row indent"><span>2.</span><span class="mv">Nf3</span><span>d6</span><span class="count">3 games</span></div>
+              </div>
+            </article>
+            <article class="feature">
+              <span class="ico gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z" /></svg></span>
+              <h3>Adaptive coach</h3>
+              <p>Explanations and training adapt to your level, based on your Chess.com Rapid rating or a level you choose yourself.</p>
+              <div class="levels" aria-label="Levels">
+                <div><b>Beginner</b><span>below 1000</span></div>
+                <div><b>Intermediate</b><span>1000–1799</span></div>
+                <div><b>Advanced</b><span>1800+</span></div>
+              </div>
+            </article>
+            <article class="feature">
+              <span class="ico best"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.7-3.5M4 4v4h4M4 13a8 8 0 0 0 14.7 3.5M20 20v-4h-4" /></svg></span>
+              <h3>Personal training</h3>
+              <p>Spaced repetition brings back the positions you got wrong and the opening moves you need to remember, just before you would forget them.</p>
+            </article>
+            <article class="feature">
+              <span class="ico info"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16M6 16l4-5 3 3 5-7" /></svg></span>
+              <h3>Progress intelligence</h3>
+              <p>Charts of your accuracy, mistake types and openings over time, with recommendations based on the evidence in your own games.</p>
+            </article>
+            <article class="feature">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5" /><circle cx="12" cy="12" r="4.5" /><circle cx="12" cy="12" r="0.8" fill="currentColor" /></svg></span>
+              <h3>Opening training</h3>
+              <p>Practise your played and prepared repertoires move by move, so the lines you really reach become second nature.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Privacy ============ -->
+      <section class="section section-alt" id="privacy" aria-labelledby="privacy-title">
+        <div class="wrap split">
+          <div>
+            <span class="kicker">Privacy</span>
+            <h2 id="privacy-title">Your chess stays on your device</h2>
+            <p class="lead">Castlora is local-first. There is no Castlora account and no Castlora server. Your games, analysis and training history are stored on your device and nowhere else.</p>
+            <ul class="checklist">
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg></span><span><strong>No account.</strong> Open the app and start. There is nothing to sign up for.</span></li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg></span><span><strong>Nothing is sent to us.</strong> The developer runs no servers for Castlora and receives none of your data.</span></li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg></span><span><strong>No ads, analytics, tracking or cookies.</strong></span></li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg></span><span><strong>You stay in control.</strong> Export a JSON backup or delete everything from Settings at any time.</span></li>
+            </ul>
+            <p class="cta-row"><a class="btn" href="./privacy.html">Read the privacy policy</a></p>
+          </div>
+          <div class="flow" role="group" aria-label="Where your data goes">
+            <div class="flow-device">
+              <div class="flow-device-head">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" /><path d="M8 20h8M12 16v4" /></svg>
+                Your device
+              </div>
+              <div class="flow-items">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" /><path d="M4 12h16M12 4v16" /></svg>Your games</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16M6 16l4-5 3 3 5-7" /></svg>Engine analysis</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2.5 20h19z" /><path d="M12 10v4" /></svg>Mistakes and training</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h9a5 5 0 0 1 5 5v11H8a3 3 0 0 1-3-3z" /></svg>Repertoires</span>
+              </div>
+            </div>
+            <div class="flow-links">
+              <div class="flow-link">
+                <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3" /></svg></span>
+                <span><b>Chess.com public API</b>Only when you import. It receives the username you ask for, plus what any website request reveals, such as your IP address.</span>
+              </div>
+              <div class="flow-link">
+                <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10" /></svg></span>
+                <span><b>GitHub</b>Hosts the website, the app files and the Android download.</span>
+              </div>
+              <div class="flow-link none">
+                <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg></span>
+                <span><b>Castlora servers</b>None. There is no Castlora server to send your data to.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Free + fair play ============ -->
+      <section class="section" id="free" aria-label="Price and fair play">
+        <div class="wrap duo">
+          <div class="panel panel-free">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6.5v5c0 4.6 3.4 8.4 8 9.5 4.6-1.1 8-4.9 8-9.5v-5z" /><path d="m8.5 12 2.5 2.5 4.5-5" /></svg></span>
+            <h2>Free. No subscription.</h2>
+            <div class="price"><b>Free</b><span>to use, for everyone</span></div>
+            <p>There's no paid tier, and no ads paying for it behind your back. Castlora has no servers to run, because the analysis happens on your device. That is what makes it possible to offer it for free.</p>
+            <ul class="inline-list"><li class="pill">No subscription</li><li class="pill">No ads</li><li class="pill">No tracking</li><li class="pill">No cookies</li></ul>
+          </div>
+          <div class="panel panel-fair">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="7.5" /><path d="M12 9.5V13l2.5 2M10 2.5h4M12 2.5v3" /></svg></span>
+            <h2>Built for after the game</h2>
+            <p>Castlora only works with <strong>completed games</strong>. It never analyses or helps during a live game, on any site. Using any analysis tool during a game in progress breaks the fair play rules of Chess.com, Lichess and other sites.</p>
+            <p>Play your game. Then come back and learn from it. That's where the improvement happens.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FAQ ============ -->
+      <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+        <div class="wrap">
+          <div class="section-head center">
+            <span class="kicker">FAQ</span>
+            <h2 id="faq-title">Honest answers</h2>
+          </div>
+          <div class="faq">
+            <details>
+              <summary>Why is my accuracy different from Chess.com's?</summary>
+              <div class="answer">
+                <p>Castlora and Chess.com use different engine settings and different formulas. Castlora runs Stockfish 19 lite on your own device, with depth limits that suit a phone or laptop. Chess.com runs its own analysis on its own servers. So the same game can get a different accuracy score, and sometimes a different verdict on a move.</p>
+                <p>All engine evaluations and accuracy numbers are estimates. They're most useful when you compare Castlora's numbers with each other over time.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Where is my data?</summary>
+              <div class="answer">
+                <p>Only on your device. The web app stores it in your browser's storage (IndexedDB), and the Android app in its own app storage. Nothing is synced, so your data in one browser is not visible in another browser or on another device.</p>
+                <p>To move or back up your data, use <strong>Settings → Export</strong> to save a JSON file, and import it on the other device. <strong>Settings → Delete all data</strong> removes everything Castlora stores on that device. Backup files you exported are ordinary files: delete them yourself if you no longer need them.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Is it really free?</summary>
+              <div class="answer">
+                <p>Yes. There's no subscription, no ads and no tracking. Castlora doesn't need servers because everything runs on your device, so there are no running costs to pass on to you.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Can I use Castlora during a game?</summary>
+              <div class="answer">
+                <p>No. Castlora only imports and analyses completed games and never offers help during a live game. Using an engine or analysis tool during a game in progress, including daily or correspondence games, breaks the fair play rules of Chess.com and other sites.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Do I need a Chess.com account?</summary>
+              <div class="answer">
+                <p>No. To import from Chess.com you only type a username. Castlora fetches that player's public, finished games from Chess.com's public API. You can also open PGN files, for example games exported from Lichess or from another chess app. You don't need a Castlora account either.</p>
+              </div>
+            </details>
+            <details>
+              <summary>How do I install the Android app from GitHub?</summary>
+              <div class="answer">
+                <ol>
+                  <li>On your phone, open the <a href="https://github.com/William-Lindberg/castlora/releases/latest">latest release on GitHub</a> and download the Castlora <code>.apk</code> file.</li>
+                  <li>Recommended: check that the file's SHA-256 checksum matches the one in <code>SHA256SUMS.txt</code> in the same release.</li>
+                  <li>Open the APK. Android asks you to allow your browser or file manager to <strong>install unknown apps</strong>. Allow it for that app only.</li>
+                  <li>Install Castlora. Afterwards you can switch the "install unknown apps" permission off again.</li>
+                </ol>
+                <p>Google is rolling out Android developer verification for apps installed outside Google Play, so depending on your device and country, Android may show extra warnings or steps. Only download Castlora from the official release page.</p>
+              </div>
+            </details>
+            <details>
+              <summary>How does Castlora decide my level?</summary>
+              <div class="answer">
+                <p>After you import from Chess.com, it uses your Chess.com Rapid rating. Without enough Rapid games it uses another Chess.com time class as a provisional level, and without any rating you pick your level yourself. You can change it at any time. The levels are <strong>Beginner</strong> below 1000, <strong>Intermediate</strong> from 1000 to 1799, and <strong>Advanced</strong> from 1800. These are Castlora's own, provisional categories for pitching explanations and training. They are not official titles or ratings.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Will analysis slow down my device?</summary>
+              <div class="answer">
+                <p>Analysis runs on your device's processor, so speed depends on your hardware. A phone takes longer than a laptop to analyse many games. Castlora uses the lite, single-threaded build of Stockfish 19 to keep things light.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Is Castlora open source?</summary>
+              <div class="answer">
+                <p>No. Castlora is free to use, but it is proprietary software: the source code isn't published, and you may not copy, modify or redistribute it. See the <a href="./licence.html">Castlora License</a>.</p>
+                <p>The Stockfish chess engine inside Castlora is a separate program licensed under the GNU GPL v3. Its <a href="https://github.com/nmrugg/stockfish.js/tree/v19.0.1">complete source code</a> is public, and your GPL rights for those files are not restricted. All third-party licences are listed under <a href="./notices.html">open-source licences and notices</a>.</p>
+              </div>
+            </details>
+            <details>
+              <summary>Is Castlora affiliated with Chess.com?</summary>
+              <div class="answer">
+                <p>No. Castlora is an independent project and is not affiliated with Chess.com, Lichess or the Stockfish project. It uses Chess.com's public API under Chess.com's terms.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ Final CTA ============ -->
+      <section class="section cta-band" aria-labelledby="cta-title">
+        <div class="wrap">
+          <div class="cta-card">
+            <div>
+              <h2 id="cta-title">Start with your last game.</h2>
+              <p>Open Castlora in your browser. There's nothing to install and nothing to sign up for.</p>
+            </div>
+            <div class="cta-row">
+              <a class="btn btn-lg btn-light" href="./app/">Open the web app</a>
+              <a class="btn btn-lg" href="https://github.com/William-Lindberg/castlora/releases/latest">Download for Android</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <a class="brand" href="./">
+              <svg viewBox="0 0 32 32" class="brand-mark" aria-hidden="true">
+                <rect width="32" height="32" rx="9" fill="url(#castlora-g)" />
+                <path d="M9.5 8.5h2.6v2.2h2.4V8.5h3v2.2h2.4V8.5h2.6v5.2l-2 1.6v5.4l1.6 1.8v1.5H9.9v-1.5l1.6-1.8v-5.4l-2-1.6z" fill="#fff" />
+                <path d="M14.6 24v-3.2a1.4 1.4 0 0 1 2.8 0V24" fill="#5a55d6" />
+                <circle cx="24.2" cy="8.6" r="1.6" fill="#f2c45a" />
+              </svg>
+              <span>Castlora</span>
+            </a>
+            <p>Free, local-first chess improvement. Learn from the games you play.</p>
+            <p>Castlora is not affiliated with Chess.com, Lichess or the Stockfish project.</p>
+          </div>
+          <nav aria-labelledby="footer-product">
+            <h2 id="footer-product">Product</h2>
+            <ul>
+              <li><a href="./app/">Open the web app</a></li>
+              <li><a href="https://github.com/William-Lindberg/castlora/releases/latest">Download for Android</a></li>
+              <li><a href="https://github.com/William-Lindberg/castlora">GitHub repository</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </nav>
+          <nav aria-labelledby="footer-legal">
+            <h2 id="footer-legal">Legal</h2>
+            <ul>
+              <li><a href="./licence.html">Licence</a></li>
+              <li><a href="./terms.html">Terms of use</a></li>
+              <li><a href="./privacy.html">Privacy policy</a></li>
+              <li><a href="./notices.html">Open-source licences</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 William Matthew Lindberg. All rights reserved.</span>
+          <span>Free to use · not open source</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
